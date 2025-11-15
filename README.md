@@ -1,0 +1,1 @@
+# STM32G431_BMI270_Project_Git_test
