@@ -69,6 +69,8 @@ int idcu_main(void)
             hmi_update_message_process();
             idcu_uart_comm.rx_complete = false;
         }
+
+        //Need watchdog feed here
     }
 
 }
