@@ -1,0 +1,1635 @@
+Dependencies for Project 'STM32G431_BMI270_Project', Target 'STM32G431_BMI270_Project': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (startup_stm32g431xx.s)(0x69136011)(--cpu Cortex-M4.fp.sp -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_STM32G431_BMI270_Project-IC:\Users\kkk\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\kkk\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include--pd "__UVISION_VERSION SETA 539"--pd "_RTE_ SETA 1"--pd "STM32G431xx SETA 1"--pd "_RTE_ SETA 1"--list startup_stm32g431xx.lst--xref -o stm32g431_bmi270_project\startup_stm32g431xx.o--depend stm32g431_bmi270_project\startup_stm32g431xx.d)
+F (../Core/Src/main.c)(0x6914B746)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/main.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.hs.\Core\Inc\dma.hh.\Core\Inc\fdcan.h)(0x00000000)
+I (..\Core\Inc\tim.h\.\Sensor_API\CAN\Inc\can_api.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\angle_calc.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (../Core/Src/gpio.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/gpio.o -MD)
+I (..\Core\Inc\main.hr.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (../Core/Src/dma.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/dma.o -MD)
+I (..\Core\Inc\main.h..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (../Core/Src/fdcan.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/fdcan.o -MD)
+I (..\Core\Inc\main.hc.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (../Core/Src/spi.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/spi.o -MD)
+I (..\Core\Inc\main.h..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\HAL_Driver\Inc\spi_driver.h)(0x00000000)
+I (..\Core\Inc\gpio.h7:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (../Core/Src/tim.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/tim.o -MD)
+I (..\Core\Inc\main.h..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (../Core/Src/usart.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/usart.o -MD)
+I (..\Core\Inc\main.hc.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270.ht.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (..\HAL_Driver\Inc\usart_driver.hc.\Sensor_API\BMI270\Inc\angle_calc.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\idcu_api.h)(0x6914B45A)
+F (../Core/Src/stm32g4xx_it.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_it.o -MD)
+I (..\Core\Inc\main.h4.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.hs.\Core\Inc\stm32g4xx_it.h)(0x00000000)
+F (../Core/Src/stm32g4xx_hal_msp.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_msp.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_fdcan.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_rcc.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_rcc_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_flash.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_flash_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_flash_ramfunc.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_gpio.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_exti.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_dma.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_dma_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_pwr.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_pwr_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_cortex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_spi.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_spi_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_tim.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_tim_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_uart.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/stm32g4xx_hal_uart_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (../Core/Src/system_stm32g4xx.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/system_stm32g4xx.o -MD)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+F (..\Sensor_API\BMI270\Src\bmi270.c)(0x6916064E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/bmi270.o -MD)
+I (..\Sensor_API\BMI270\Inc\bmi270.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\spi.h4.\Core\Inc\main.h\.\Core\Inc\usart.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.hs.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\HAL_Driver\Inc\spi_driver.h)(0x69136011)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (..\Sensor_API\BMI270\Inc\angle_calc.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_start_assist.h)(0x69181BC6)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
+F (..\Sensor_API\BMI270\Src\bmi270_config_file.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/bmi270_config_file.o -MD)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+F (..\Sensor_API\CAN\Src\can_api.c)(0x69181473)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/can_api.o -MD)
+I (..\Core\Inc\fdcan.hr.\Core\Inc\main.h)(0x00000000)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.hs.\Sensor_API\CAN\Inc\can_api.h)(0x00000000)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_start_assist.h)(0x69181BC6)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
+F (..\Sensor_API\BMI270\Src\idcu_api.c)(0x691813C3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/idcu_api.o -MD)
+I (..\Sensor_API\BMI270\Inc\idcu_api.h)(0x6914B45A)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\usart.hx:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270.h\.\Core\Inc\spi.h)(0x00000000)
+I (..\HAL_Driver\Inc\spi_driver.h0.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.hs.\Core\Inc\fdcan.h)(0x00000000)
+I (..\Sensor_API\CAN\Inc\can_api.hh.\Sensor_API\BMI270\Inc\angle_calc.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_start_assist.h)(0x69181BC6)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_vehicle_start_opt.h)(0x69181DA7)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_descent_assist.h)(0x69181880)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_falling_security_protection.h)(0x6914BABE)
+F (..\Sensor_API\BMI270\Src\angle_calc.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/angle_calc.o -MD)
+I (..\Sensor_API\BMI270\Inc\angle_calc.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\spi.h4.\Core\Inc\main.h\.\Core\Inc\usart.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.hs.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\HAL_Driver\Inc\spi_driver.h)(0x69136011)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+F (..\HAL_Driver\Src\spi_driver.c)(0x69136011)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/spi_driver.o -MD)
+I (..\HAL_Driver\Inc\spi_driver.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\spi.h4.\Core\Inc\main.h\.\Core\Inc\usart.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270.h)(0x69136011)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.hc.\Core\Inc\gpio.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+F (..\HAL_Driver\Src\usart_driver.c)(0x6914B4EE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/usart_driver.o -MD)
+I (..\HAL_Driver\Inc\usart_driver.h)(0x6914B4BB)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (..\Core\Inc\spi.h4.\Core\Inc\main.h\.\Core\Inc\usart.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\Sensor_API\BMI270\Inc\bmi270.ht.\HAL_Driver\Inc\spi_driver.h)(0x00000000)
+I (..\Core\Inc\gpio.h7:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\Sensor_API\BMI270\Inc\bmi270_config_file.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+F (..\Sensor_API\iDCU_Hill_Control\Src\idcu_hill_descent_assist.c)(0x69181880)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/idcu_hill_descent_assist.o -MD)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_descent_assist.h)(0x69181880)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_falling_security_protection.h)(0x6914BABE)
+F (..\Sensor_API\iDCU_Hill_Control\Src\idcu_hill_start_assist.c)(0x691815A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/idcu_hill_start_assist.o -MD)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_start_assist.h)(0x69181BC6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
+F (..\Sensor_API\iDCU_Hill_Control\Src\idcu_vehicle_start_opt.c)(0x6917EBB3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/idcu_vehicle_start_opt.o -MD)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_vehicle_start_opt.h)(0x69181DA7)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_hill_start_assist.h)(0x69181BC6)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
+F (..\Sensor_API\iDCU_Hill_Control\Src\idcu_falling_security_protection.c)(0x6914B6CB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../HAL_Driver/Inc -I ../Sensor_API/BMI270/Inc -I ../Sensor_API/CAN/Inc -I ../Sensor_API/iDCU_Hill_Control/Inc-I./RTE/_STM32G431_BMI270_Project-IC:/Users/kkk/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kkk/AppData/Local/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o stm32g431_bmi270_project/idcu_falling_security_protection.o -MD)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_falling_security_protection.h)(0x6914BABE)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_system_types.h)(0x6914B979)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x69136011)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x69136011)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h)(0x69136011)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h)(0x69136011)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x69136011)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x69136011)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x690C470F)
+I (..\Sensor_API\iDCU_Hill_Control\Inc\idcu_sensor_data.h)(0x6914BA11)
