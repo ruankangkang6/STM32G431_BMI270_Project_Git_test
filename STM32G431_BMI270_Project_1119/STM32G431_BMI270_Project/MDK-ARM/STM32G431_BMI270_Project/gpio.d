@@ -1,0 +1,44 @@
+stm32g431_bmi270_project/gpio.o: ..\Core\Src\gpio.c ..\Core\Inc\gpio.h \
+  ..\Core\Inc\main.h ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
+  ..\Core\Inc\stm32g4xx_hal_conf.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h \
+  ..\Drivers\CMSIS\Include\core_cm4.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stdint.h \
+  E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_version.h \
+  E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_compiler.h \
+  E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h \
+  E:\01_OUTUO_Project\04_IDCU\Software\Completed_Project\New_version\STM32G431_BMI270_Project_1115N3\STM32G431_BMI270_Project\Drivers\CMSIS\Include\mpu_armv7.h \
+  ..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stddef.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_fdcan.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h \
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h \
+  ..\Core\Inc\usart.h C:\Keil_v5\ARM\ARMCLANG\include\stdio.h \
+  ..\Sensor_API\BMI270\Inc\bmi270.h ..\Core\Inc\spi.h \
+  ..\HAL_Driver\Inc\spi_driver.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\string.h \
+  ..\Sensor_API\BMI270\Inc\bmi270_config_file.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h \
+  ..\HAL_Driver\Inc\usart_driver.h

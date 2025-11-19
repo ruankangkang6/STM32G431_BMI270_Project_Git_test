@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "idcu_system_types.h": "c",
+        "idcu_output_control.h": "c",
+        "idcu_sensor_data.h": "c",
+        "idcu_hill_descent_assist.h": "c",
+        "idcu_falling_security_protection.h": "c",
+        "idcu_api.h": "c",
+        "idcu_vehicle_start_opt.h": "c"
+    }
+}
